@@ -21,7 +21,7 @@ namespace CoreWebApplication.Controllers
         public IActionResult Privacy()
         {
             ViewBag.Message = "Security is everybody's business";
-            ViewBag.MyFavoriteColor = "Blue";
+            ViewBag.Note = "Stay Safe";
             return View();
         }
 
